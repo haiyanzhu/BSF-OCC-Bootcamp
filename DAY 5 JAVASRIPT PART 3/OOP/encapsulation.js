@@ -17,7 +17,7 @@ class BankAccount {
   }  
 
   getAccountInfo() {
-    return `your account number is : ${this.accountNumber}, and your balance is $${this.balance}`;
+    return `your account number is : ${this.accountNumber}, and your balance is \$${this.balance}`;
   }
 };
 
